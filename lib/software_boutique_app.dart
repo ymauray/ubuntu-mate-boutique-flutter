@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:softwareboutique/i18n/software_boutique_localizations.dart';
-import 'package:softwareboutique/widgets/main_page.dart';
+import 'package:softwareboutique/pages/main_page.dart';
 import 'package:window_size/window_size.dart';
 import 'package:yaru/yaru.dart' as yaru;
 import 'package:flutter_localizations/flutter_localizations.dart';

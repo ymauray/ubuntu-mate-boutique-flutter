@@ -46,6 +46,11 @@ dependencies:
     git:
       url: git://github.com/google/flutter-desktop-embedding.git
       path: plugins/window_size
+  logger: ^1.1.0
+  snapd: ^0.1.1
+  flutter_svg: ^0.23.0+1
+  font_awesome_flutter: ^9.1.0
+  html: ^0.15.0
 
 dev_dependencies:
   flutter_test:
@@ -70,8 +75,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/i18n/en.po
-    - assets/i18n/fr.po
+    - assets/i18n
+    - assets/data/img/boutique.svg
+    - assets/data/applications.json
+    - assets/img/applications
     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
